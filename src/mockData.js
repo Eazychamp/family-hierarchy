@@ -1,0 +1,53 @@
+
+export const HEADER_DATA = [
+	{ path: "parentsSiblings", name: "Parents & Sibling", width : 22 },
+	{ path: "gender", name: "Gender", width : 4 },
+	{ path: "birth", name: "Birth", width : 11 },
+	{ path: "birth_location", name: "Birth Location", width : 17 },
+	{ path: "death", name: "Death", width : 11 },
+	{ path: "death_location", name: "Death Location", width : 17 },
+	{ path: "marriage", name: "Marriage", width : 8 },
+	{ path: "spouse", name: "Spouse", width : 12 },
+];
+
+export const TABLE_DATA = [
+	{
+		id: 0,
+		parentLevel: 0,
+		parentsSiblings: "Kyle Musk",
+        image : 'https://s.yimg.com/ny/api/res/1.2/_OLvH0OVN3uUKZZT.XoZ0Q--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQyNw--/https://s.yimg.com/uu/api/res/1.2/nS2kQC4p6LuA4cbxirG10A--~B/aD02ODM7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/footwear_news_642/6f41c4a3e84e08bda5a1a8b65fcb5ce2',
+		gender: "F",
+		birth: "21 Aug 2000",
+		birth_location: "Somewhere",
+		death: "23 Oct 1988",
+		death_location: "Agra",
+		marriage: 1990,
+		spouse: "Robert Musk",
+	},
+	{
+		id: 1,
+		parentLevel: 0,
+		parentsSiblings: "Robert Musk",
+        image: 'https://i.timesnowhindi.com/stories/errol_musk.jpg?tr=w-400,h-300,fo-auto',
+		gender: "M",
+		birth: "28 Sept 2010",
+		birth_location: "Chamoli",
+		death: "21 Sept 1980",
+		death_location: "Aligarh",
+		marriage: 1990,
+		spouse: "Kyle Musk",
+	},
+	{
+		id: 2,
+		parentLevel: 1,
+		parentsSiblings: "Elon Musk",
+        image : 'https://w7.pngwing.com/pngs/956/662/png-transparent-elon-musk-tesla-spacex-and-the-quest-for-a-fantastic-future-tesla-motors-openai-white-head-is-not-separated-thumbnail.png',
+		gender: "M",
+		birth: "21 Aug 2010",
+		birth_location: "Lucknow",
+		death: "23 Oct 1998",
+		death_location: "Kanpur",
+		marriage: 2090,
+		spouse: "Giliba Ize",
+	},
+];
